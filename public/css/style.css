@@ -1,0 +1,43 @@
+body {
+	background-image: 
+	radial-gradient(
+       #2999E2,
+       #0071BC
+    );
+
+    background-position: fixed;
+}
+
+#logo {
+	padding: 5px;
+	margin-top: 5%;
+}
+
+.middleLogo {
+	margin: 10% 35%;
+
+}
+
+#fbButton {
+	width: 90%;
+	margin: 5%;
+	margin-top: 20%;
+	background-color: #252EA0;
+}
+
+h2{
+	text-align: center;
+}
+
+.block {
+	background-color: white;
+	height: 216px;
+}
+
+.block:hover {
+	background-color: #FCEE21;
+}
+
+.icons {
+	margin: 10% 20%;
+}
