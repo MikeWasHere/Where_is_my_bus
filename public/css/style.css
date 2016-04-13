@@ -8,6 +8,12 @@ body {
     background-position: fixed;
 }
 
+h1 {
+	font-size: 1.5em;
+	text-align: center;
+	margin: 5% 0;
+}
+
 #logo {
 	padding: 5px;
 	margin-top: 5%;
@@ -40,4 +46,18 @@ h2{
 
 .icons {
 	margin: 10% 20%;
+}
+
+/*searchBus page*/
+#myLocation {
+	background-color: white;
+}
+
+#locationIcon {
+	margin: 2% 45%;
+}
+
+h3 {
+	text-align: center;
+	margin-top: 5%;
 }

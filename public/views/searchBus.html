@@ -1,40 +1,50 @@
-	<div class="off-canvas-wrap" data-offcanvas>
-  <div class="inner-wrap">
-    <nav class="tab-bar">
-      <section class="left-small">
-        <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
-      </section>
+<div ng-controller="OffCanvasDemoCtrl">
+    <div class="off-canvas-wrap">
+        <div class="inner-wrap">
+            <nav class="tab-bar">
+                <section class="left-small">
+                    <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+                </section>
 
-      <section class="middle tab-bar-section">
-        <h1 class="title">Foundation</h1>
-      </section>
+                <section class="middle tab-bar-section">
+                    <h1 class="title">Find my bus</h1>
+                </section>
 
-      <section class="right-small">
-        <a class="right-off-canvas-toggle menu-icon" href="#"><span></span></a>
-      </section>
-    </nav>
 
-    <aside class="left-off-canvas-menu">
-      <ul class="off-canvas-list">
-        <li><label>Foundation</label></li>
-        <li><a href="#">The Psychohistorians</a></li>
-        <li><a href="#">...</a></li>
-      </ul>
-    </aside>
+            </nav>
 
-    <aside class="right-off-canvas-menu">
-      <ul class="off-canvas-list">
-        <li><label>Users</label></li>
-        <li><a href="#">Hari Seldon</a></li>
-        <li><a href="#">...</a></li>
-      </ul>
-    </aside>
+            <aside class="left-off-canvas-menu">
+                <ul class="off-canvas-list">
+                    <li><a href="#">Left Sidebar</a></li>
+                </ul>
+            </aside>
+            
+            <section class="main-section">
+                <div class="small-12 columns">
+                    <h1>Where are you departing?</h1>
+                   <div id="myLocation">
+                   		<img src="../img/location.svg" id="locationIcon" width="50" height="50">
+                   		<h2>Use my location</h2>	
+                   </div>
+                </div>
+            </section>
 
-    <section class="main-section">
-      <!-- content goes here -->
-    </section>
-
-  <a class="exit-off-canvas"></a>
-
-  </div>
+            <a class="exit-off-canvas"></a>
+        </div>
+    </div>
 </div>
+
+<div>
+	<h3>OR</h3>
+</div>
+
+<form>
+	<div class="row">
+		<input class="small-12 columns" placeholder="Street Address"></input>
+	</div>
+
+	<div class="row">
+		<input class="small-6 columns" placeholder="city"></input>
+		<input class="small-6 columns" placeholder="state"></input>
+	</div>
+</form>

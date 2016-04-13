@@ -1,3 +1,2 @@
-$(document).foundation();
-
 angular.module('sampleApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'NerdCtrl', 'NerdService', 'GeekCtrl', 'GeekService']);
+angular.module('myModule', ['mm.foundation']);
