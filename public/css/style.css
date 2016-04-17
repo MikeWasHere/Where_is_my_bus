@@ -14,6 +14,36 @@ h1 {
 	margin: 5% 0;
 }
 
+h2, h3{
+	text-align: center;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+h5 {
+	font-size: .90em;
+}
+
+p {
+	margin-bottom: 10px;
+	color: black;
+}
+
+.bottomButton{
+	background-color: #FCEE21;
+	color: black;
+	margin-top: 5%;
+	padding: 4% 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.bottomButton:hover {
+	background-color: #A59823;
+}
+
 #logo {
 	padding: 5px;
 	margin-top: 5%;
@@ -29,10 +59,6 @@ h1 {
 	margin: 5%;
 	margin-top: 20%;
 	background-color: #252EA0;
-}
-
-h2{
-	text-align: center;
 }
 
 .block {
@@ -53,11 +79,30 @@ h2{
 	background-color: white;
 }
 
+#myLocation:hover{
+	background-color: #D8D8D6;
+	cursor: pointer;
+}
+
 #locationIcon {
 	margin: 2% 45%;
 }
 
-h3 {
-	text-align: center;
-	margin-top: 5%;
+#or{
+	margin: 5%;
+}
+
+/******** RESULTS PAGE ********/
+.results {
+	background-color: white;
+	margin-top: 3%;
+}
+
+.results:hover {
+	background-color: #D8D8D6;
+}
+
+/******** BUS PAGE ********/
+#map {
+	margin: 4% 0;
 }
