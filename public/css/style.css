@@ -51,7 +51,6 @@ p {
 
 .middleLogo {
 	margin: 10% 35%;
-
 }
 
 #fbButton {
@@ -59,6 +58,8 @@ p {
 	margin: 5%;
 	margin-top: 20%;
 	background-color: #252EA0;
+	padding: 5% 0;
+	font-size: 1.5em;
 }
 
 .block {
