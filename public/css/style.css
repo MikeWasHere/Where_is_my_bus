@@ -12,14 +12,20 @@ h1 {
 	font-size: 1.5em;
 	text-align: center;
 	margin: 5% 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
 }
 
 h2, h3{
 	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
 }
 
 h4 {
 	font-size: 1.5em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
 }
 
 h5 {
@@ -29,19 +35,25 @@ h5 {
 p {
 	margin-bottom: 10px;
 	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.2em;
 }
 
 .bottomButton{
 	background-color: #FCEE21;
 	color: black;
 	margin-top: 5%;
-	padding: 4% 0;
+	padding: 2% 0;
 	text-align: center;
 	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 2em;
 }
 
 .bottomButton:hover {
 	background-color: #A59823;
+	color: black;
 }
 
 #logo {
@@ -59,6 +71,9 @@ p {
 	margin: 5%;
 	margin-top: 20%;
 	background-color: #252EA0;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
 }
 
 .block {
@@ -77,6 +92,7 @@ p {
 /*searchBus page*/
 #myLocation {
 	background-color: white;
+	padding-bottom: 1px;
 }
 
 #myLocation:hover{
