@@ -33,11 +33,6 @@ angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', f
 			controller: 'NerdController'	
 		})
 
-		.when('/sb2', {
-			templateUrl: 'views/sb2.html',
-			controller: 'NerdController'	
-		})
-
 		.when('/results', {
 			templateUrl: 'views/results.html',
 			controller: 'NerdController'	

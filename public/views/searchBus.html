@@ -25,7 +25,8 @@
 
 <div class="row">	            
     <div class="small-12 columns">
-    	<h1>Where are you departing?</h1>
+    	<h1 ng-hide="myVar">Where are you?</h1>
+    	<h1 ng-show="myVar">Where are you going?</h1>
         <div id="myLocation">
        		<img src="../img/location.svg" id="locationIcon" width="50" height="50">
        		<h2>Use my location</h2>	
@@ -37,7 +38,7 @@
 		<h3>OR</h3>
 	</div>
 
-	<form ng-hide="edit">
+	<form ng-hide="myVar">
 		<div class="row">
 			<div class="small-12 columns">
 				<input class="small-12 columns" placeholder="Street Address"></input>
@@ -59,8 +60,7 @@
 		</div>
 	</form>
 
-<!-- <h1 ng-show="edit">Edit a product</h1>
-<form ng-submit="editProduct(updateProduct)" ng-show="edit">
+<form ng-show="myVar">
 	<div class="row">
 		<div class="small-12 columns">
 			<input class="small-12 columns" placeholder="Street Address 2"></input>
@@ -80,12 +80,21 @@
 	        </select>
 		</div>
 	</div>
-</form> -->
+</form>
 
 <div class="row">
-	<a href="#/sb2" class="small-12 columns bottomButton">next</a>
+	<a  class="small-12 columns bottomButton" ng-click="toggle()">next</a>
 </div>
 
     <a class="exit-off-canvas"></a>
         </div>
     </div>
+
+
+<!-- <button ng-click="toggle()">Show user</button> -->
+
+<!-- <p ng-show="myVar">
+First Name: <input type=text ng-model="firstName"><br>
+Last Name: <input type=text ng-model="lastName"><br><br>
+Full Name: {{firstName + " " + lastName}}
+</p> -->
