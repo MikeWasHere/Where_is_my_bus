@@ -121,3 +121,12 @@ p {
 #map {
 	margin: 4% 0;
 }
+
+/******** SETTINGS PAGE ********/
+.less-margin {
+	margin: 0 0 2% 0;
+}
+
+.white{
+	color: white;
+}

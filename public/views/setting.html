@@ -1,28 +1,55 @@
-	<div ng-controller="OffCanvasDemoCtrl">
-    <div class="off-canvas-wrap">
-        <div class="inner-wrap">
-            <nav class="tab-bar">
-                <section class="left-small">
-                    <a class="left-off-canvas-toggle menu-icon"><span></span></a>
-                </section>
+<div class="off-canvas-wrap">
+    <div class="inner-wrap">
+        <nav class="tab-bar">
+            <section class="left-small">
+                <a class="left-off-canvas-toggle menu-icon"><span></span></a>
+            </section>
 
-                <section class="middle tab-bar-section">
-                    <h1 class="title">Settings</h1>
-                </section>
+            <section class="middle tab-bar-section">
+                <h1 class="title">Settings</h1>
+            </section>
 
-            </nav>
+        </nav>
 
-            <aside class="left-off-canvas-menu">
-                <ul class="off-canvas-list">
-                    <li><a href="#">Left Sidebar</a></li>
-                </ul>
-            </aside>
+        <aside class="left-off-canvas-menu">
+            <ul class="off-canvas-list">
+                <li><a href="#/main">Home</a></li>
+                <li><a href="#/recent">Recents</a></li>
+                <li><a href="#/favorites">Favorites</a></li>
+                <li><a href="#/setting">Settings</a></li>
+            </ul>
+        </aside>
 
-            <a class="exit-off-canvas"></a>
+<div class="secondaryBody row animated fadeInUp">
+    <div class="row">
+        <div class="small-11 small-centered columns">
+            <h4 class="white">General</h4>
+            <hr class="small-12 small-centered columns less-margin">
+            <div class="row">
+                <p class="small-8 columns white">Automatically turn on GPS:</p>
+                <div class="switch round large small-3 columns">
+                  <input id="exampleRadioSwitch3" type="radio" name="testGroup">
+                  <label for="exampleRadioSwitch3"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="small-11 small-centered columns">
+            <h4 class="white">Notification</h4>
+            <hr class="small-12 small-centered columns less-margin">
+            <div class="row">
+                <p class="small-8 columns white">When your bus is close by:</p>
+                <div class="switch round large small-3 columns">
+                  <input id="exampleRadioSwitch3" type="radio" name="testGroup">
+                  <label for="exampleRadioSwitch3"></label>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="secondaryBody row animated fadeInUp">
-<h1>Fade up SON</h1>
+        <a class="exit-off-canvas"></a>
+    </div>
 </div>
